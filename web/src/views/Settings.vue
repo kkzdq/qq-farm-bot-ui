@@ -984,8 +984,8 @@ async function handleTestOffline() {
             </div>
             <div class="mt-2 text-xs text-gray-500 dark:text-gray-400 space-y-1">
               <p>* 拖拽或点击箭头调整种植优先级</p>
-              <p>* 空地不足时将等待，不会跳过当前种子</p>
-              <p>* 背包种子用完后将自动切换为"最高等级"策略</p>
+              <p>* 仅支持 1x1 种子，2x2 及以上种子会被跳过</p>
+              <p>* 1x1 种子用完后将自动切换为"最高等级"策略</p>
             </div>
           </div>
 
